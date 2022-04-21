@@ -1,0 +1,80 @@
+.navbar {
+    width: 100%;
+    padding: 26px 0 83px 0;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__menu {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.navbar__menu li {
+    display: inline-block;
+}
+
+.navbar__menu-link {
+    text-decoration: none;
+    color: #22293D;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 20px;
+    transition: all 0.05s ease-out;
+}
+.navbar__menu-link:hover {
+    text-decoration-line: underline;
+    color: #22293D;
+    font-weight: 700;
+    padding: 19px;
+    transition: all 0.05s ease-out;
+} 
+.last:hover {
+    padding-left: 18px;
+    padding-right: 0;
+}
+.last {
+    padding-right: 0;
+}
+
+.first {
+    color: #FF4F5A;
+    font-weight: 500;
+}
+.first:hover {
+    text-decoration-line: underline;
+    color: #FF4F5A;
+    font-weight: 700;
+}
+.btn__enter{
+    border: none;
+    background-color: #fff;
+    color: #FF4F5A;
+    font-weight: 600;
+    padding: 0 49px 0 92px;
+}
+.btn__registration {
+    border: none;
+    background-color: #fff;
+    color: #FF4F5A;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    border: 1.5px solid #FF4F5A;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 183px;
+    height: 45px;
+}
+.btn__registration:hover {
+    background-color: #FFF2F2;
+}

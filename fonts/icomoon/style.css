@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?mhuqxq');
+  src:  url('fonts/icomoon.eot?mhuqxq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mhuqxq') format('truetype'),
+    url('fonts/icomoon.woff?mhuqxq') format('woff'),
+    url('fonts/icomoon.svg?mhuqxq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-account:before {
+  content: "\e900";
+  color: #c8c8c8;
+}
+.icon-accounts:before {
+  content: "\e901";
+  color: #747474;
+}
+.icon-groupSearch .path1:before {
+  content: "\e902";
+  color: rgb(255, 79, 90);
+}
+.icon-groupSearch .path2:before {
+  content: "\e903";
+  margin-left: -1.345703125em;
+  color: rgb(255, 255, 255);
+}
+.icon-instagram:before {
+  content: "\e904";
+  color: #0a66c2;
+}
+.icon-search:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-searchRectangle:before {
+  content: "\e906";
+  color: #ff4f5a;
+}
+.icon-telegram:before {
+  content: "\e907";
+  color: #1bc1fb;
+}
